@@ -1,0 +1,77 @@
+Albański: Tungjatjeta
+Angielski: Hello
+Arabski: Marhaba
+Bułgarski: Zdrawejte
+Chiński: Neih hou
+Czeski: Nazdar
+Duński: Goddag
+Esperanto: Saluton
+Estoński: Tervist
+Filipiński: Huy
+Fiński: Paivaa
+Francuski: Salut
+Grecki: Geia siou
+Hiszpański: Hola
+Holenderski: Hallo
+Islandzki:Godan
+Irlandzki: Haileo
+Japoński: Konnichi wa
+Koreański: Annyong
+Łaciński: Salve
+Niemiecki: Gruess dich
+Norweski: Goddag
+Portugalski: Oi
+Rosyjski: Priwiet 
+Rumuński: Buna
+Serbski: Zdravo
+Szwedzki: Hejsan
+Słowacki: Ahoj
+Słoweński: Zhivjo
+Turecki: Selam 
+Ukraiński: Prywit
+Węgierski: Szervusz
+Włoski: Ciao
+angielski: good morning (rano), good afternoon (od południa) 
+białoruski: добры дзень 
+bośniacki: dobro jutro 
+bułgarski: добро утро 
+chiński: 早上好 
+chorwacki: dobar dan , dobro jutro (rano) 
+czeski: dobré jitro 
+dolnołużycki: dobre zajtšo (rano), dobry źeń 
+duński: god morgen 
+esperanto: bonan matenon, bonan tagon 
+farerski: góðan morgun 
+fiński: hyvää huomenta, huomenta 
+francuski: bonjour 
+garífuna: buiti bináfi 
+górnołużycki: dobre ranje (rano), dobry dźeń 
+gruziński: დილა მშვიდობისა 
+grecki: καλημέρα 
+hawajski: aloha 
+hindi: नमस्ते (do jednej osoby), नमस्कार (do kilku osób) 
+hiszpański: buenos días (rano), buenas tardes (po południu) 
+holenderski: goedemorgen 
+islandzki: góðan daginn 
+indonezyjski: selamat pagi 
+japoński: こんにちは (konnichi wa), おはようございます (ohayō gozaimasu, polite) (rano), おはよう (ohayō, informal) (rano) 
+kaszubski: dobri dzéń 
+kataloński: bon dia 
+koreański: 안녕하세요 (annyeong haseyo) 
+łotewski: Labrīt 
+niemiecki: guten Morgen (rano), guten Tag 
+norweski: god morgen, morn 
+portugalski: bom dia 
+rumuński: bună dimineaţa, bună ziua 
+rosyjski: доброе утро (rano), добрый день 
+serbski: добро јутро (rano), добар дан (od południa) 
+słowacki: dobré ráno 
+sycylijski: boggiornu 
+szwedzki: god morgon, god dag, god middag 
+telugu: శుభోదయం 
+turecki: günaydin 
+tzutujil: sakari 
+ukraiński: доброго ранку (rano), добридень, добрий день, доброго дня 
+wenecki: bongiorno 
+węgierski: jó reggelt 
+włoski: buongiorno, buondì 
