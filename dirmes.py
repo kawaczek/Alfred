@@ -12,6 +12,9 @@ consumer_secret = config.get('twiter','consumer_secret')
 access_token = config.get('twiter','access_token')
 access_token_secret = config.get('twiter','access_token_secret')
 sciezka = config.get('live','sciezka')
+kawak = config.get('Wlasciciel', 'twid')
+joanna = config.get('Joanna','twid')
+jarrod = config.get('Jarrod','twid')
 
 reload(sys)
 sys.setdefaultencoding('UTF8')
@@ -33,40 +36,40 @@ class CustomStreamListener(tweepy.StreamListener):
     print  a['direct_message']['sender_screen_name'] + "(" + a["direct_message"]["sender_id_str"] + ")" + ": " + a['direct_message']['text'] 
 
 
-    if  a['direct_message']['text'] in open(sciezka +'/pliki/w.txt').read() and  a["direct_message"]["sender_id_str"] != "3340726557": 
-	lines = open(sciezka + '/pliki/witaj.txt').read().splitlines()
-	if  source == "379322713":
+    if  a['direct_message']['text'] in open(sciezka +'pliki/w.txt').read() and  a["direct_message"]["sender_id_str"] != "3340726557": 
+	lines = open(sciezka + 'pliki/witaj.txt').read().splitlines()
+	if  source == joanna:
          api.send_direct_message(user_id = source , text = random.choice(lines) + " Joanno" )
 	else:
       	 api.send_direct_message(user_id = source , text = random.choice(lines) )
     else:
-     if source == "1690435358":
-          lines = open(sciezka + '/pliki/czekaj.txt').read().splitlines()
+     if source == kawak:
+          lines = open(sciezka + 'pliki/czekaj.txt').read().splitlines()
           es2 =  random.choice(lines)
           api.send_direct_message(user_id = source , text = es2 )
 	  if a['direct_message']['text'] == "fotka":
              os.system("python " + sciezka +  "foto.py " + source)
           elif a['direct_message']['text'] == "Burza":
-	     os.system("python " + sciezka +  "/burza.py " +  source)
+	     os.system("python " + sciezka +  "burza.py " +  source)
           else:
-             os.system("python " + sciezka +  "/test.py " +  source + s + c + a['direct_message']['text'] + c) 
+             os.system("python " + sciezka +  "test.py " +  source + s + c + a['direct_message']['text'] + c) 
 
-     elif source == "379322713":
-          lines = open(sciezka + '/pliki/czekaj.txt').read().splitlines()
+     elif source == joanna:
+          lines = open(sciezka + 'pliki/czekaj.txt').read().splitlines()
           es2 =  random.choice(lines)
           api.send_direct_message(user_id = source , text = es2 )
           if a['direct_message']['text'] == "fotka":
              os.system("python " + sciezka +  "foto.py " + source)
           elif a['direct_message']['text'] == "Burza":
-             os.system("python " + sciezka +  "/burza.py " +  source)
+             os.system("python " + sciezka +  "burza.py " +  source)
           else:
-              os.system("python " + sciezka +  "/test.py " +  source + s + c + a['direct_message']['text'] + c)
+              os.system("python " + sciezka +  "test.py " +  source + s + c + a['direct_message']['text'] + c)
 
-     elif source == "320225034":
+     elif source == jarrod :
       lines = open(sciezka + 'czekaj.txt').read().splitlines()
       es2 =  random.choice(lines)
       api.send_direct_message(user_id = source , text = es2 )
-      os.system("python " + sciezka +  "/test.py " +  source + s + c + a['direct_message']['text'] + c)
+      os.system("python " + sciezka +  "test.py " +  source + s + c + a['direct_message']['text'] + c)
 
 stream = tweepy.streaming.Stream(auth, CustomStreamListener())
 streamuser = stream.userstream()

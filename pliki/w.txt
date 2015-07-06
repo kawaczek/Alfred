@@ -1,5 +1,7 @@
 czesc
 Czesc
+Cześć
+cześć
 Witaj
 witaj
 hello
@@ -8,3 +10,5 @@ Hello
 Ahoj
 Dzien dobry
 dzien dobry
+dzień dobry
+Dzień dobry
