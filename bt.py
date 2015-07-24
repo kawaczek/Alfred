@@ -14,7 +14,6 @@ config = ConfigParser.ConfigParser()
 config.readfp(open(r'/home/pi/.conf'))
 
 kawak = config.get('Wlasciciel', 'twid')
-joanna = config.get('Joanna','twid')
 sciezka = config.get('live','sciezka')
 
 
@@ -35,7 +34,6 @@ def executeSomething():
     if lines[0] == "Nie zarejestrowano wyładowań atmosferycznych w ciągu ostatnich 10 minut w wybranym promieniu dla wskazanej lokalizacji." or lines[0] == "Nie zarejestrowano wyładowań atmosferycznych w ciągu ostatnich 20 minut w wybranym promieniu dla wskazanej lokalizacji." or lines[0] == "Nie zarejestrowano wyładowań atmosferycznych w ciągu ostatnich 15 minut w wybranym promieniu dla wskazanej lokalizacji.":
         print komunikat
     else:
-        os.system("python " + sciezka + "sendtw.py " + joanna + s + c + komunikat + c)
         os.system("python " + sciezka + "sendtw.py " + kawak + s + c + komunikat + c) 
         print komunikat
         print "time.sleep(10)"

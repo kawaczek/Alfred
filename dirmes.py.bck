@@ -51,8 +51,6 @@ class CustomStreamListener(tweepy.StreamListener):
              os.system("python " + sciezka +  "foto.py " + source)
           elif a['direct_message']['text'] == "Burza":
 	     os.system("python " + sciezka +  "burza.py " +  source)
-          elif a['direct_message']['text'] == "Imieniny":
-             os.system("python " + sciezka +  "imieniny.py " +  source)
           else:
              os.system("python " + sciezka +  "test.py " +  source + s + c + a['direct_message']['text'] + c) 
 

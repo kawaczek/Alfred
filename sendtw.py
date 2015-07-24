@@ -26,7 +26,7 @@ auth.set_access_token(access_token, access_token_secret)
 api = tweepy.API(auth)  
 source =  sys.argv[1]
 tekst =  sys.argv[2]
-a = textwrap.wrap(tekst,130)
+a = textwrap.wrap(tekst,140)
 d = json.dumps(a)
 d1 = json.loads(d)
 dl = len(d1)
